@@ -1,0 +1,26 @@
+body {
+    direction: rtl;
+    background-image: url('../images/wallpaper.jpg');
+}
+#container{
+    width: 960px;
+    margin:0 auto;
+    font-size: 25px;
+}
+ul{
+    font-family: Calibri
+}
+h1 {
+    font-family: Calibri;
+    font-size: 35px;
+    color:black;
+}
+
+h2, h3{
+    font-family: Calibri;
+    font-size: 25px;
+}
+h3{
+    position: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,33 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Task4_ShellyShamay</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Task4_ShellyShamay</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="48945_minisait_sg.jpg">48945_minisait_sg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="logo.jpg">logo.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="wallpaper.jpg">wallpaper.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <Folder Name="jScripts" TargetFolderName="jScripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.12.0.min.js">jquery-1.12.0.min.js</ProjectItem>
+      </Folder>
+      <Folder Name="styles" TargetFolderName="styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="myStyle.css">myStyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="reset.css">reset.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
